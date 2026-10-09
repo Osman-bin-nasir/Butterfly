@@ -70,7 +70,7 @@ def main():
  validation={'units':'mm','thickness_mm':a.thickness,'enclosed_cutout_clearance_diameter_mm':a.hole_clearance,'parts':report,'build_plate':{'bed_mm':[220,220],'occupied_bounds_mm':bounds,'minimum_part_gap_mm':gap,'part_intersections':0,'3mf_readback_passed':True},'limits':['Static flat-profile geometry only; assembly locations and moving clearances absent from PDF.','No flight, strength, fatigue, or physical printer-fit validation.','Open edge slots are preserved; hole-clearance parameter does not change edge slots.']}
  (ROOT/'validation.json').write_text(json.dumps(validation,indent=2))
  with open(ROOT/'feature_measurements.csv','w',newline='') as f:
-  w=csv.DictWriter(f,fieldnames=list(features[0]));w.writeheader();w.writerows(features)
+  w=csv.DictWriter(f,fieldnames=list(features[0]),lineterminator="\n");w.writeheader();w.writerows(features)
  fig,ax=plt.subplots(figsize=(9,9))
  for idx,p in enumerate(placed):
   ax.fill(*np.array(p.exterior.coords).T,color='#94d3d6',ec='#155d68',lw=.7)
