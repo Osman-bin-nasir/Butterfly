@@ -1,0 +1,386 @@
+{
+  "units": "mm",
+  "thickness_mm": 1.5,
+  "enclosed_cutout_clearance_diameter_mm": 0,
+  "parts": [
+    {
+      "part": "01_body_profile",
+      "size_mm": [
+        42.33190155029297,
+        172.02149963378906,
+        1.5
+      ],
+      "holes": 9,
+      "volume_mm3": 5320.933854144986,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": -16,
+      "min_triangle_area_mm2": 0.0010800079842283594,
+      "volume_relative_error": 5.575622541043649e-09,
+      "min_hole_to_outer_web_mm": 1.397598051929133,
+      "min_hole_to_hole_web_mm": 4.968835031473671
+    },
+    {
+      "part": "02_mounting_plate",
+      "size_mm": [
+        46.21189880371094,
+        74.09320068359375,
+        1.5
+      ],
+      "holes": 10,
+      "volume_mm3": 2178.0311125055873,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": -18,
+      "min_triangle_area_mm2": 0.0028214537051098887,
+      "volume_relative_error": 4.0977104942411395e-08,
+      "min_hole_to_outer_web_mm": 2.123864957385739,
+      "min_hole_to_hole_web_mm": 2.3698867959180903
+    },
+    {
+      "part": "03_fork_plain_right",
+      "size_mm": [
+        32.37049865722656,
+        49.46969985961914,
+        1.5
+      ],
+      "holes": 1,
+      "volume_mm3": 1028.6183456825504,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": 0,
+      "min_triangle_area_mm2": 0.002705755876377225,
+      "volume_relative_error": 3.927647291793116e-09,
+      "min_hole_to_outer_web_mm": 3.900942545078047,
+      "min_hole_to_hole_web_mm": null
+    },
+    {
+      "part": "04_fork_plain_left",
+      "size_mm": [
+        32.37049865722656,
+        49.469600677490234,
+        1.5
+      ],
+      "holes": 1,
+      "volume_mm3": 1028.615258926856,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": 0,
+      "min_triangle_area_mm2": 0.0008239669909926306,
+      "volume_relative_error": 4.351136121701132e-09,
+      "min_hole_to_outer_web_mm": 3.9010425388606063,
+      "min_hole_to_hole_web_mm": null
+    },
+    {
+      "part": "05_fork_slotted_right",
+      "size_mm": [
+        32.88079833984375,
+        49.362701416015625,
+        1.5
+      ],
+      "holes": 1,
+      "volume_mm3": 925.5010603807223,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": 0,
+      "min_triangle_area_mm2": 0.0019442926495685242,
+      "volume_relative_error": 2.8380003232875117e-08,
+      "min_hole_to_outer_web_mm": 1.6535570235220043,
+      "min_hole_to_hole_web_mm": null
+    },
+    {
+      "part": "06_fork_slotted_left",
+      "size_mm": [
+        32.88079833984375,
+        49.36280059814453,
+        1.5
+      ],
+      "holes": 1,
+      "volume_mm3": 925.5008385386533,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": 0,
+      "min_triangle_area_mm2": 0.003150565420583007,
+      "volume_relative_error": 2.1192474630520597e-08,
+      "min_hole_to_outer_web_mm": 1.653557023522011,
+      "min_hole_to_hole_web_mm": null
+    },
+    {
+      "part": "07_side_bracket_lower",
+      "size_mm": [
+        18.680700302124023,
+        35.000099182128906,
+        1.5
+      ],
+      "holes": 2,
+      "volume_mm3": 392.47034125074816,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": -2,
+      "min_triangle_area_mm2": 0.0030565537681468413,
+      "volume_relative_error": 3.033540898136915e-08,
+      "min_hole_to_outer_web_mm": 1.1640000000000006,
+      "min_hole_to_hole_web_mm": 26.7281
+    },
+    {
+      "part": "08_side_bracket_upper",
+      "size_mm": [
+        18.680700302124023,
+        35.0,
+        1.5
+      ],
+      "holes": 2,
+      "volume_mm3": 392.46581037214236,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": -2,
+      "min_triangle_area_mm2": 0.0030592217490266194,
+      "volume_relative_error": 1.8782329507827397e-09,
+      "min_hole_to_outer_web_mm": 1.1639,
+      "min_hole_to_hole_web_mm": 26.7281
+    },
+    {
+      "part": "09_three_hole_strip",
+      "size_mm": [
+        8.0,
+        35.04460144042969,
+        1.5
+      ],
+      "holes": 3,
+      "volume_mm3": 296.1833235383123,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": -4,
+      "min_triangle_area_mm2": 0.000974413582298439,
+      "volume_relative_error": 4.20121997023765e-08,
+      "min_hole_to_outer_web_mm": 1.93,
+      "min_hole_to_hole_web_mm": 1.7645511638940945
+    },
+    {
+      "part": "10_four_hole_plate_bottom_right",
+      "size_mm": [
+        10.175399780273438,
+        26.915700912475586,
+        1.5
+      ],
+      "holes": 4,
+      "volume_mm3": 292.07121498333686,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": -6,
+      "min_triangle_area_mm2": 0.002178543130185062,
+      "volume_relative_error": 2.0836825994965442e-08,
+      "min_hole_to_outer_web_mm": 2.9188516922347123,
+      "min_hole_to_hole_web_mm": 2.0053062334715843
+    },
+    {
+      "part": "11_four_hole_plate_top_left",
+      "size_mm": [
+        10.175399780273438,
+        26.915700912475586,
+        1.5
+      ],
+      "holes": 4,
+      "volume_mm3": 292.0707096625369,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": -6,
+      "min_triangle_area_mm2": 0.00010237111007427302,
+      "volume_relative_error": 1.189793015558106e-08,
+      "min_hole_to_outer_web_mm": 2.916516164201847,
+      "min_hole_to_hole_web_mm": 2.0002062493652994
+    },
+    {
+      "part": "12_four_hole_plate_bottom_left",
+      "size_mm": [
+        10.175399780273438,
+        26.915700912475586,
+        1.5
+      ],
+      "holes": 4,
+      "volume_mm3": 292.07096289360976,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": -6,
+      "min_triangle_area_mm2": 0.0021795294703679247,
+      "volume_relative_error": 1.9245699554349033e-08,
+      "min_hole_to_outer_web_mm": 2.9188516922347123,
+      "min_hole_to_hole_web_mm": 2.0053062334715843
+    },
+    {
+      "part": "13_four_hole_plate_top_right",
+      "size_mm": [
+        10.175399780273438,
+        26.915700912475586,
+        1.5
+      ],
+      "holes": 4,
+      "volume_mm3": 292.06986651590944,
+      "watertight": true,
+      "winding_consistent": true,
+      "single_connected_solid": true,
+      "each_edge_two_faces": true,
+      "manifold3d_status": "Error.NoError",
+      "euler_characteristic": -6,
+      "min_triangle_area_mm2": 0.00010265633022754628,
+      "volume_relative_error": 5.960580228707054e-10,
+      "min_hole_to_outer_web_mm": 2.9165154524761023,
+      "min_hole_to_hole_web_mm": 2.0002062493652994
+    }
+  ],
+  "build_plate": {
+    "bed_mm": [
+      220,
+      220
+    ],
+    "occupied_bounds_mm": [
+      5.0,
+      5.0,
+      154.1053,
+      213.94819999999999
+    ],
+    "minimum_part_gap_mm": 3.0,
+    "part_intersections": 0,
+    "3mf_readback_passed": true
+  },
+  "limits": [
+    "Static flat-profile geometry only; assembly locations and moving clearances absent from PDF.",
+    "No flight, strength, fatigue, or physical printer-fit validation.",
+    "Open edge slots are preserved; hole-clearance parameter does not change edge slots."
+  ],
+  "open_edge_slots": [
+    {
+      "part": "05_fork_slotted_right",
+      "outline_edge_indices": [
+        62,
+        64
+      ],
+      "width_mm": 1.3999554632704343,
+      "parallel_overlap_mm": 9.716348416079686,
+      "clearance_if_mating_1p5_mm_sheet": -0.1000445367295657
+    },
+    {
+      "part": "05_fork_slotted_right",
+      "outline_edge_indices": [
+        155,
+        157
+      ],
+      "width_mm": 1.3999620456732509,
+      "parallel_overlap_mm": 9.819511067043315,
+      "clearance_if_mating_1p5_mm_sheet": -0.10003795432674911
+    },
+    {
+      "part": "05_fork_slotted_right",
+      "outline_edge_indices": [
+        235,
+        237
+      ],
+      "width_mm": 1.399910114272738,
+      "parallel_overlap_mm": 14.668251823581436,
+      "clearance_if_mating_1p5_mm_sheet": -0.10008988572726207
+    },
+    {
+      "part": "05_fork_slotted_right",
+      "outline_edge_indices": [
+        337,
+        339
+      ],
+      "width_mm": 1.3999346222108073,
+      "parallel_overlap_mm": 14.55932009297209,
+      "clearance_if_mating_1p5_mm_sheet": -0.10006537778919267
+    },
+    {
+      "part": "06_fork_slotted_left",
+      "outline_edge_indices": [
+        35,
+        37
+      ],
+      "width_mm": 1.399954088489649,
+      "parallel_overlap_mm": 14.559223425718834,
+      "clearance_if_mating_1p5_mm_sheet": -0.10004591151035092
+    },
+    {
+      "part": "06_fork_slotted_left",
+      "outline_edge_indices": [
+        137,
+        139
+      ],
+      "width_mm": 1.3999397124466753,
+      "parallel_overlap_mm": 14.668203324719038,
+      "clearance_if_mating_1p5_mm_sheet": -0.10006028755332474
+    },
+    {
+      "part": "06_fork_slotted_left",
+      "outline_edge_indices": [
+        217,
+        219
+      ],
+      "width_mm": 1.4000279208105904,
+      "parallel_overlap_mm": 9.81956477497857,
+      "clearance_if_mating_1p5_mm_sheet": -0.09997207918940965
+    },
+    {
+      "part": "06_fork_slotted_left",
+      "outline_edge_indices": [
+        310,
+        312
+      ],
+      "width_mm": 1.39995546335027,
+      "parallel_overlap_mm": 9.716474936448698,
+      "clearance_if_mating_1p5_mm_sheet": -0.10004453664973001
+    }
+  ],
+  "reconstruction": {
+    "source_sha256": "9ae2c5c4dbb380de73e06514a85a61ee35aa9dc048d64d55b2550fe8372a4cf4",
+    "page_count": 1,
+    "sheet_calibration_mm": [
+      145,
+      175
+    ],
+    "sx_mm_per_pdf_point": 0.35277771087166016,
+    "sy_mm_per_pdf_point": 0.3527777721781306,
+    "endpoint_merge_radius_mm": 0.08,
+    "max_endpoint_displacement_mm": 0.0289107845,
+    "cubic_chord_tolerance_mm": 0.002,
+    "profile_simplification_tolerance_mm": 0.003,
+    "duplicate_segment_count_removed": 474,
+    "tiny_boundary_slivers_merged_max_area_mm2": 0.3,
+    "enclosed_cutout_count": 46
+  }
+}
